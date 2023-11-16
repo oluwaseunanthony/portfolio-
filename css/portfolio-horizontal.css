@@ -1,6 +1,5 @@
 
 
-
 :root {
     --background: #2C2C2C;
 }
@@ -23,12 +22,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px 20px 16px 16px;
-    background-color: white;
+    background: linear-gradient(135deg, #f7c5ff, #a1d0ff, #a3e5ff, #b8f1d3);
     cursor: pointer;
     overflow: hidden;
     max-width: clamp(620px, 70vw, 820px);
     min-width: 260px;
     min-height: 280px;
+
+
 }
 
 .card:hover {
@@ -98,3 +99,5 @@ body {
     transition: 1.2s;
     transform: rotateY(360deg);
 }
+
+

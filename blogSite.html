@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Blog</title>
+  <link rel="stylesheet" href="css/blogSite.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7i1h8/GnLEJZuZKZnq+OuP27EJYfQShwef4" crossorigin="anonymous">
+</head>
+<body>
+<header>
+  <h1>Dark Blog</h1>
+</header>
+
+<nav>
+  <a href="#" class="tab">Home</a>
+  <a href="#" class="tab">Category 1</a>
+  <a href="#" class="tab">Category 2</a>
+  <!-- Add more tabs as needed -->
+</nav>
+
+<section id="home">
+  <h2>Welcome to the Dark Blog</h2>
+  <p>This is the home content of the blog.</p>
+</section>
+
+<section id="subscription">
+  <h2>Subscribe to Our Newsletter</h2>
+  <form id="subscriptionForm">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="button" onclick="subscribe()">Subscribe</button>
+  </form>
+</section>
+
+<div id="social-icons">
+  <a href="#" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+  <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+  <a href="#" target="_blank" class="social-icon"><i class="fas fa-question"></i></a> <!-- Replace "fas fa-question" with the actual icon for platform X -->
+</div>
+
+<script>
+  function subscribe() {
+    setTimeout(function() {
+      alert('Subscription successful!');
+    }, 3000);
+  }
+</script>
+</body>
+</html>

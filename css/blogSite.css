@@ -1,0 +1,160 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Existing styles remain unchanged */
+
+/* Add the following styles for the floating effect */
+#subscription {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    animation: floatAnimation 3s ease-in-out infinite alternate;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Existing styles remain unchanged */
+
+/* Add the following styles for the social icons */
+#social-icons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Additional styling for the social icons (optional) */
+.social-icon:hover {
+    color: #aaa;
+}
+/* Existing styles remain unchanged */
+
+/* Add the following styles for the newsletter */
+#newsletter {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+.newsletter-header h2 {
+    color: #fff;
+}
+
+.newsletter-header p {
+    color: #aaa;
+}
+
+.newsletter-body h3 {
+    color: #fff;
+}
+
+.newsletter-body p {
+    color: #ccc;
+}
+
+.newsletter-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.newsletter-body li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.newsletter-body li a:hover {
+    color: #aaa;
+}
+
+.newsletter-footer h3 {
+    color: #fff;
+}
+
+/* Additional styling for the social icons (optional) */
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #aaa;
+}
